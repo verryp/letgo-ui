@@ -6,7 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Let Go</title>
+
     <link rel="stylesheet" href="libraries/bootstrap/css/bootstrap.css">
+    <link href="https://fonts.googleapis.com/css2?family=Assistant:wght@200;300;400;600;700;800&family=Cairo:wght@400;600;700;900&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/styles/main.css">
 </head>
 
 <body>
@@ -15,6 +18,37 @@
             <a href="#" class="navbar-brand">
                 LETGO
             </a>
+            <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbar">
+                <ul class="navbar-nav ml-auto mr-3">
+                    <li class="nav-item mx-md-2"><a href="#" class="nav-link active">Home</a></li>
+                    <li class="nav-item mx-md-2"><a href="#" class="nav-link">Paket Travel</a></li>
+                    <li class="nav-item dropdown">
+                        <a href="#" class="nav-link dropdown-toggle" id="#navbar-drop" data-toggle="dropdown">Service</a>
+                        <div class="dropdown-menu">
+                            <a href="#" class="dropdown-item">Link a</a>
+                            <a href="#" class="dropdown-item">Link b</a>
+                            <a href="#" class="dropdown-item">Link c</a>
+                        </div>
+                    </li>
+                    <li class="nav-item mx-md-2"><a href="#" class="nav-link">Testomonial</a></li>
+                </ul>
+
+                <!-- ? Mobile Button -->
+                <form class="form-inline d-sm-block d-md-none">
+                    <button class="btn btn-login my-2 my-sm-0">
+                        Login
+                    </button>
+                </form>
+                <!-- ? Desktop Button -->
+                <form class="form-inline my-2 my-lg-0 d-none d-md-block">
+                    <button class="btn btn-login btn-navbar-right my-2 my-sm-0 px-4">
+                        Login
+                    </button>
+                </form>
+            </div>
         </nav>
     </div>
     <script src="libraries/jquery/jquery-3.4.1.min.js"></script>

@@ -1,5 +1,41 @@
+body {
+    background-color: #E4E6EB;
+    font-family: 'Assistant', sans-serif;
+    color: #c90d0d;
+}
+
 .navbar-brand {
-    img {
-        max-height: 40px;
+    font-family: 'Cairo', sans-serif;
+    font-size: 30px;
+    font-weight: 800;
+    color: #c90d0d;
+}
+
+.navbar-light {
+    .navbar-nav {
+        .nav-link {
+            color: #c90d0d;
+            &.active {
+                font-weight: bold;
+                color: #c90d0d !important;
+            }
+        }
     }
+}
+
+.btn-login {
+    background-color: #c90d0d;
+    color: #ffffff;
+    &:hover {
+        background-color: #d81414;
+        color: #ffffff;
+    }
+}
+
+.btn-navbar-right {
+    margin-top: -10px !important;
+    margin-bottom: -8px !important;
+    margin-right: -18px !important;
+    height: 70px;
+    border-radius: 0;
 }
